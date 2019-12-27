@@ -1,0 +1,81 @@
+ul{color:#262c3a;font-family:'Roboto-Regular',sans-serif;font-size:15px;font-weight:400}li{color:#262c3a;font-family:'Roboto-Regular',sans-serif;font-size:15px;font-weight:400}.clear_column{margin-bottom:30px}.content-column.one_half{padding-right:80px}.content-column.one_half.last_column{position:relative;padding:0;margin-top:60px}.content-column.one_half.last_column p{margin-bottom:0}.content-column.one_half.last_column p:before{content:"";position:absolute;height:100%;width:5px;background-color:#ffc40b;left:-45px}.content-column img{width:100%}.pagination .thenativePagination{padding:0}.pagination .thenativePagination li{display:inline-block;margin:0 5px;border:1px solid #000;line-height:37px}.pagination .thenativePagination li.active a,.pagination .thenativePagination li:hover a{color:red}.pagination .thenativePagination li:hover,.pagination .thenativePagination li.active{background:#000}.pagination .thenativePagination li a{color:#000;font-family:'Roboto-Medium',sans-serif;font-weight:400;padding:7px 15px}.service .box-service a:hover > i,.package .box-package:hover a > i,.blog-content .box-blog:hover .content-box a i,.btn-style:hover > i,.see-all a:hover > i{-webkit-transition:transform .6s;-moz-transition:transform .6s;-ms-transition:transform .6s;-o-transition:transform .6s;transition:transform .6s;-webkit-transform:translateX(5px);-moz-transform:translateX(5px);-ms-transform:translateX(5px);-o-transform:translateX(5px);transform:translateX(5px)}.package .box-package a i,.package .box-package:hover:after{-webkit-transform:translateX(0px);-moz-transform:translateX(0px);-ms-transform:translateX(0px);-o-transform:translateX(0px);transform:translateX(0px)}.banner .title-english{text-shadow:0 2px 4px rgba(0,0,0,0.13);color:#fff;font-family:"Roboto-Light",sans-serif;font-size:38px;font-weight:400;line-height:76px;letter-spacing:1.06px}@media only screen and (max-width: 767px){.banner .title-english{line-height:48px}.content-column{width:100%;padding:0!important}.content-column.one_half.last_column p:before{content:none}.slider-post .slick-prev{top:-37px;left:15px}.slider-post .slick-next{top:-37px;left:65px}}
+
+#hotline{
+    position: fixed;
+    bottom: 45px;
+    z-index: 9999
+}
+#hotline #phone h3{
+    opacity: 0;
+    color: #c92427 ;
+    position: absolute;
+    white-space: nowrap;
+    top: 10px;
+    left: 90px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#hotline #phone:hover h3{
+    opacity: 1;
+}
+#hotline .active-clear-hotline{
+    display: none !important;
+}
+#hotline #phone {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1000;
+    margin-top: -48px;
+    margin-left: 10px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background: url('../images/bg-phone-ring.png') no-repeat top;
+    background-size: cover;
+}
+#hotline #phone span {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url('../images/icon-phone-ring.png') no-repeat top;
+    -webkit-animation: Rotate 2000ms linear 1000ms infinite;
+    animation: Rotate 2000ms linear 1000ms infinite;
+    background-size: cover;
+}
+@-webkit-keyframes Rotate {
+    0% {-webkit-transform:rotate(0deg);}
+    4% {-webkit-transform:rotate(-45deg);}
+    8% {-webkit-transform:rotate(0deg);}
+    12% {-webkit-transform:rotate(-45deg);}
+    16% {-webkit-transform:rotate(0deg);}
+    20% {-webkit-transform:rotate(-45deg);}
+    24% {-webkit-transform:rotate(0deg);}
+    100% {-webkit-transform:rotate(0deg);}
+}
+
+@keyframes Rotate {
+    0% {transform:rotate(0deg);}
+    4% {transform:rotate(-45deg);}
+    8% {transform:rotate(0deg);}
+    12% {transform:rotate(-45deg);}
+    16% {transform:rotate(0deg);}
+    20% {transform:rotate(-45deg);}
+    24% {transform:rotate(0deg);}
+    100% {transform:rotate(0deg);}
+}
+.blog-content .box-blog .content-box{
+    height: initial;
+}
+
+.page-template-home .sec-about-doctor-home .sec-about-doctor-home--col-right--col-cont--group-content .cont-icont{
+    width: 30px;
+    margin-top: -2px;
+}
+
+
+

@@ -1,0 +1,374 @@
+.single:not(.single-dich-vu) .main {
+  background-color: #ffff;
+  padding-bottom: 90px; }
+
+.sec-banner {
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px; }
+  .sec-banner .sec-banner--container {
+    position: relative; }
+    .sec-banner .sec-banner--container .sec-banner--bg {
+      position: absolute;
+      height: 100%; }
+      .sec-banner .sec-banner--container .sec-banner--bg img {
+        height: 100%;
+        max-width: 100%; }
+    .sec-banner .sec-banner--container .sec-banner--content-container {
+      padding: 48px 0 63px; }
+      .sec-banner .sec-banner--container .sec-banner--content-container .sec-banner--content {
+        padding: 25px 108px;
+        background-color: #231f20;
+        opacity: 0.8; }
+        .sec-banner .sec-banner--container .sec-banner--content-container .sec-banner--content .sec-banner--content-box {
+          width: 328px; }
+          .sec-banner .sec-banner--container .sec-banner--content-container .sec-banner--content .sec-banner--content-box .title-page h1 {
+            color: #ffffff;
+            font-family: "Roboto-Black", "sans-serif";
+            font-size: 70px;
+            font-weight: 700;
+            margin-bottom: 0px; }
+          .sec-banner .sec-banner--container .sec-banner--content-container .sec-banner--content .sec-banner--content-box .sec-banner--bc li {
+            color: #ffcb0e;
+            font-family: "Roboto-Medium", "sans-serif";
+            font-size: 10px;
+            font-weight: 500;
+            padding-bottom: 36px; }
+          .sec-banner .sec-banner--container .sec-banner--content-container .sec-banner--content .sec-banner--content-box .sec-banner--sub h3 {
+            color: #ffffff;
+            font-family: "Roboto-Medium", "sans-serif";
+            font-size: 19px;
+            font-weight: 700;
+            padding-bottom: 15px; }
+          .sec-banner .sec-banner--container .sec-banner--content-container .sec-banner--content .sec-banner--content-box .sec-banner--description p {
+            color: #ffffff;
+            font-family: "Roboto-Light", "sans-serif";
+            font-size: 10px;
+            font-weight: 100; }
+
+.sec-content .sec-content--post {
+  max-width: 685px; }
+  .sec-content .sec-content--post .post-center .h3-title {
+    color: #000000;
+    font-family: "Roboto-Bold", "sans-serif";
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px; }
+  .sec-content .sec-content--post .post-center .inf {
+    margin-bottom: 44px;
+    display: flex;
+    color: #000000;
+    font-family: "Roboto-Light", "sans-serif";
+    font-size: 10px;
+    font-weight: 300; }
+    .sec-content .sec-content--post .post-center .inf .author-inf, .sec-content .sec-content--post .post-center .inf .day-inf {
+      display: flex; }
+    .sec-content .sec-content--post .post-center .inf .author-inf:before {
+      content: '';
+      background: url(../images/icon-admin.svg) no-repeat;
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      margin-right: 10px; }
+    .sec-content .sec-content--post .post-center .inf .day-inf:before {
+      content: '';
+      background: url(../images/icon-day.svg) no-repeat;
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      margin-right: 10px;
+      margin-left: 30px; }
+  .sec-content .sec-content--post .post-description p {
+    color: #000000;
+    font-family: "Roboto-Light", "sans-serif";
+    font-size: 20px;
+    font-weight: 100; }
+
+.sec-slider--post .h4-title {
+  color: #000000;
+  font-family: "Roboto-Black", "sans-serif";
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 47px;
+  position: relative; }
+  .sec-slider--post .h4-title::before {
+    content: "";
+    position: absolute;
+    background: #f6b60b;
+    height: 2px;
+    width: 100%;
+    bottom: -11px; }
+.sec-slider--post .blog-content {
+  background-color: #ffff;
+  padding-top: 0px;
+  max-width: 388px;
+  padding-bottom: 53px; }
+  .sec-slider--post .blog-content .post--box-blog {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 11px; }
+    .sec-slider--post .blog-content .post--box-blog .image-size {
+      width: 123px;
+      height: 77px; }
+    .sec-slider--post .blog-content .post--box-blog .post-content-box {
+      max-width: calc(100% - 138px);
+      padding-left: 17px; }
+      .sec-slider--post .blog-content .post--box-blog .post-content-box h5 {
+        color: #000000;
+        font-family: "Roboto-Regular", "sans-serif";
+        font-size: 16px;
+        font-weight: 400; }
+        .sec-slider--post .blog-content .post--box-blog .post-content-box h5:focus {
+          outline: none; }
+        .sec-slider--post .blog-content .post--box-blog .post-content-box h5:hover {
+          color: #ffcb0e; }
+          .sec-slider--post .blog-content .post--box-blog .post-content-box h5:hover a {
+            color: #ffcb0e; }
+        .sec-slider--post .blog-content .post--box-blog .post-content-box h5 a {
+          text-decoration: none;
+          background-color: transparent;
+          color: #000000; }
+
+.sec-list {
+  margin-bottom: 20px; }
+  .sec-list .sec-list--content {
+    max-width: 391px;
+    display: flex;
+    flex-wrap: wrap; }
+    .sec-list .sec-list--content .h4-title {
+      color: #000000;
+      font-family: "Roboto-Black", "sans-serif";
+      font-size: 20px;
+      font-weight: 700;
+      position: relative;
+      margin-bottom: 39px;
+      width: 100%; }
+      .sec-list .sec-list--content .h4-title::before {
+        content: "";
+        position: absolute;
+        background: #f6b60b;
+        height: 2px;
+        width: 100%;
+        bottom: -10px; }
+    .sec-list .sec-list--content .box {
+      padding: 0 4.5px;
+      margin-bottom: 8px;
+      max-width: 50%;
+      position: relative;
+      display: inline-block; }
+      .sec-list .sec-list--content .box .box--package {
+        position: relative; }
+        .sec-list .sec-list--content .box .box--package .image-size {
+          width: 100%;
+          height: 153px;
+          object-fit: cover;
+          object-position: center; }
+          .sec-list .sec-list--content .box .box--package .image-size img {
+            max-width: 100%;
+            height: auto; }
+      .sec-list .sec-list--content .box .box--title {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #ffcb0e;
+        height: 33px;
+        position: absolute;
+        bottom: 0; }
+        .sec-list .sec-list--content .box .box--title .h5-title {
+          color: #ffffff;
+          font-family: "Roboto-Regular", "sans-serif";
+          font-size: 12px;
+          font-weight: 700;
+          margin-bottom: 0;
+          max-width: inherit;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: inherit;
+          line-height: normal;
+          position: relative; }
+          .sec-list .sec-list--content .box .box--title .h5-title:focus {
+            outline: none; }
+          .sec-list .sec-list--content .box .box--title .h5-title:hover {
+            color: #ffcb0e;
+            background: #770D12; }
+            .sec-list .sec-list--content .box .box--title .h5-title:hover a {
+              color: #ffcb0e; }
+          .sec-list .sec-list--content .box .box--title .h5-title a {
+            text-decoration: none;
+            background-color: transparent;
+            color: #ffff; }
+
+.form {
+  background-color: #ffcb0e;
+  margin-left: 19px;
+  margin-right: 42px; }
+  .form .h3-title {
+    text-transform: uppercase;
+    padding-top: 29px;
+    text-align: center;
+    color: #231f20;
+    font-family: "Roboto-Medium", "sans-serif";
+    font-size: 20px;
+    font-weight: 500; }
+  .form .h5-title {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto-Light", "sans-serif";
+    font-size: 10px;
+    font-weight: 100;
+    margin-bottom: 23px; }
+  .form .contact-phone {
+    margin-bottom: 71px;
+    text-align: center; }
+    .form .contact-phone .mobile {
+      display: flex;
+      justify-content: center; }
+      .form .contact-phone .mobile .phone {
+        display: grid;
+        margin-left: 25px; }
+        .form .contact-phone .mobile .phone a {
+          color: #000000; }
+        .form .contact-phone .mobile .phone .phone-mobile, .form .contact-phone .mobile .phone .phone-number {
+          color: #231f20;
+          font-family: "Roboto-Medium", "sans-serif";
+          font-size: 22px;
+          font-weight: bold; }
+  .form .h3-title-2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto-Medium", "sans-serif";
+    font-size: 20px;
+    font-weight: 500; }
+  .form .h5-title-2 {
+    text-align: center;
+    color: #000000;
+    font-family: "Roboto-Light", "sans-serif";
+    font-size: 10px;
+    font-weight: 100; }
+  .form .wpcf7 {
+    color: #939598;
+    font-family: "Roboto-Light", "sans-serif";
+    font-size: 10px;
+    font-weight: 100; }
+    .form .wpcf7 .name, .form .wpcf7 .phone {
+      max-width: 274px;
+      max-height: 19px; }
+      .form .wpcf7 .name input, .form .wpcf7 .phone input {
+        width: 100%;
+        height: 100%; }
+    .form .wpcf7 .message {
+      max-width: 274px;
+      height: 43px;
+      margin-bottom: 20px; }
+      .form .wpcf7 .message textarea {
+        width: 100%;
+        height: 100%; }
+    .form .wpcf7 label {
+      margin-bottom: 5px; }
+    .form .wpcf7 .wpcf7-submit {
+      background-color: #ffcb0e;
+      padding: 0 15px;
+      border: 1px solid white;
+      margin-bottom: 56px;
+      color: #000000;
+      font-family: "Roboto-Light", "sans-serif";
+      font-size: 12px;
+      font-weight: 100; }
+      .form .wpcf7 .wpcf7-submit:focus {
+        outline: none; }
+      .form .wpcf7 .wpcf7-submit:hover {
+        color: #ffcb0e;
+        background: #770D12; }
+
+@media only screen and (max-width: 1199px) {
+  .form {
+    margin-left: 19px;
+    margin-right: 19px; } }
+@media only screen and (max-width: 991px) {
+  .col-size-8 {
+    display: contents; }
+
+  .col-size-4 {
+    max-width: 100%; }
+    .col-size-4 .sec-list {
+      margin-bottom: 30px; }
+
+  .sec-slider--post .blog-content {
+    max-width: 100%; }
+
+  .sec-list .sec-list--content .box {
+    padding: 0 15px; }
+
+  .sec-list .sec-list--content {
+    max-width: 100%; }
+
+  .form {
+    margin-left: 15px;
+    margin-right: 15px; }
+    .form .wpcf7 .phone, .form .wpcf7 .name, .form .wpcf7 .message {
+      max-width: 360px; }
+
+  .sec-content .sec-content--post .post-center .h3-title {
+    margin-bottom: 0px; }
+
+  .sec-content .sec-content--post .post-center .inf {
+    padding-top: 15px;
+    margin-bottom: 15px; }
+
+  .col-size-4 {
+    padding-left: 0px;
+    padding-right: 0px; } }
+@media only screen and (max-width: 767px) {
+  .single-post .main {
+    padding-bottom: 45px; }
+
+  .sec-list .sec-list--content .box {
+    width: 50%; }
+
+  .sec-list .sec-list--content .box .box--package a {
+    width: 100%; }
+
+  .sec-list .sec-list--content .box .box--package .image-size {
+    max-height: 153px; }
+
+  .sec-list .sec-list--content .box .box--package .image-size img {
+    width: 100%;
+    height: 153px; } }
+@media only screen and (max-width: 575px) {
+  .sec-banner {
+    padding-top: 0;
+    padding-bottom: 30px; }
+
+  .sec-banner .sec-banner--container .sec-banner--content-container .sec-banner--content {
+    padding: 25px 0px; }
+    .sec-banner .sec-banner--container .sec-banner--content-container .sec-banner--content .sec-banner--content-box .title-page h1 {
+      font-size: 32px;
+      line-height: 47px;
+      letter-spacing: 1.33px; }
+
+  .sec-content .sec-content--post .post-description p {
+    font-size: 14px; }
+
+  .sec-slider--post .blog-content .post--box-blog .post-content-box h5 {
+    font-size: 14px; }
+
+  .form .contact-phone .mobile .phone .phone-mobile, .form .contact-phone .mobile .phone .phone-number {
+    font-size: 14px; }
+
+  .form .contact-phone {
+    margin-bottom: 30px; }
+
+  .sec-list .sec-list--content .box .box--package .image-size {
+    height: 100%; } }
+@media only screen and (max-width: 320px) {
+  .form .contact-phone .mobile {
+    display: inline-block; }
+
+  .form .contact-phone .mobile .phone {
+    margin-left: 0px; }
+
+  .form .contact-phone .mobile .img-phone {
+    padding-bottom: 15px; } }

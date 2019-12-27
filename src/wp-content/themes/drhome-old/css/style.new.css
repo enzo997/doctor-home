@@ -1,0 +1,755 @@
+/* page service new */
+.tab-service--new{
+    padding-top: 87px;
+    padding-bottom: 35px;
+}
+
+.tab-service--header{
+    text-align: center;
+    margin-bottom: 81px;
+}
+.tab-service--new .tab-service--title{
+    text-transform: uppercase;
+    color: #414042;
+    /* font-family: 'Roboto',sans-serif; */
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tab-service--new .tab-service--description{
+    text-transform: uppercase;
+/* Text style for "DỊCH VỤ BẢ" */
+    color: #000000;
+    /* font-family: "Myriad Pro"; */
+    font-family: 'Roboto-Regular',sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tab-service--content .row{
+    margin-left: -25px;
+    margin-right: -25px;
+}
+.tab-service--content .row .col-lg-4{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 18px;
+}
+.tab-service--box:hover .tab-service--box--content{
+    opacity: 1;
+    /* visibility: visible; */
+}
+.tab-service--box .tab-service--box--thumb:hover img{
+    opacity: 0.4;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.tab-service--box{
+    position: relative;
+    background: #000000;
+    height: 350px;
+}
+/* .tab-service--box--thumb, .tab-service--box--thumb a{ height: 273px;} */
+.tab-service--box--thumb{
+    height: 100%;
+}
+.tab-service--box--thumb img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.tab-service--box--content{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #fdcb17;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+}
+.main .tab-service--box--title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    position: relative;
+    width: calc(100% - 45px);
+    margin-top: -24px;
+    margin-bottom: -3px;
+    min-height: 60px;
+    padding-right: 16px;
+    align-items: center;
+}
+.main .tab-service--box--title:before{
+    content: '';
+    /* clip-path: polygon(0 2%, 85% 0, 100% 100%, 0% 100%);
+    background-color: #fdcb17; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+    border-bottom: 70px solid #fdcb17;
+    border-right: 35px solid transparent;
+}
+.main .tab-service--box--title a{
+    text-transform: uppercase;
+/* Text style for "CẢI TẠO NÂ" */
+    color: #000000;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.tab-service--box--readmore{
+    color: #fdcb17;
+    font-size: 32px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.paging{
+    width: 100%;
+    padding: 0 25px;
+    margin-top: 11px;
+}
+.paging ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+.paging li{
+    padding: 0 7px;
+}
+.paging li.active a{
+    border-color: #000000;
+}
+.paging a{
+    color: #000000;
+        /* font-family: "Roboto Light"; */
+        font-size: 10px;
+        font-weight: 300;
+
+        width: 18px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: solid 1px transparent;
+}
+
+
+.active_loading .lds-circle{
+    min-height: 622px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active_loading .lds-circle img{
+    max-width: 50px;
+}
+
+
+.banner-top-new{
+    min-height: 361px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 47px;
+    padding-bottom: 63px;    
+}
+.banner-top-new--content{
+    /* background-color: #231f20; */
+    color: white;
+    padding: 26px 108px;
+    min-height: 250px;
+    background-color: rgba(35, 31, 32, 0.9);
+}
+.banner-top-new .banner-top-new--title{
+    text-transform: uppercase;
+/* Text style for "DỊCH VỤ" */
+    color: #ffffff;
+    /* font-family: Roboto; */
+    font-size: 70px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.banner-top-new .banner-top-new--sub-title{
+    text-transform: uppercase;
+    /* Text style for "BẢO TRÌ VÀ" */
+    color: #ffffff;
+    /* font-family: Roboto; */
+    font-size: 19px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.banner-top-new .banner-top-new--description, .banner-top-new--description p{
+    color: #ffffff;
+    /* font-family: "Roboto Thin"; */
+    font-size: 10px;
+    font-weight: 300;
+    line-height: normal;
+    max-width: 420px;
+}
+
+
+/* breadcrumbs */
+.breadcrumbs{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 36px;
+}
+.breadcrumbs li{
+    line-height: normal;
+}
+.breadcrumbs li:not(:last-child)::after{
+    content: '/';
+    text-transform: uppercase;
+/* Text style for "TRANG CHỦ" */
+    color: #ffcb0e;
+    font-family: "Roboto",sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    margin: 0 5px;
+}
+.breadcrumbs li,
+.breadcrumbs a{
+    text-transform: uppercase;
+/* Text style for "TRANG CHỦ" */
+    color: #ffcb0e;
+    font-family: "Roboto",sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+}
+.breadcrumbs li.hrActive,
+.breadcrumbs a:hover{
+    color: white;
+}
+
+
+/* single post  */
+.sec-post-detaile{
+    padding-top: 145px;
+}
+.sec-post-detaile img{width: 100%; object-fit: cover; object-position: center;}
+.sec-post-detaile .sec-post-detail--content{
+    -webkit-flex: 0 0 calc(100% - 438px);
+    -ms-flex: 0 0 calc(100% - 438px);
+    flex: 0 0 calc(100% - 438px);
+    max-width: calc(100% - 438px);
+}
+
+.sec-post-detaile .sec-post-content--sidebar,
+.sec-post-detaile .sec-post-detail--content{
+     padding-left: 25px;
+     padding-right: 25px;
+}
+.sec-post-detaile .sec-post-detail--content--header{
+    margin-bottom: 45px;
+}
+.sec-post-detaile .sec-post-detail--content--title{
+    color: #000000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.sec-post-detaile .sec-post-detail--content--infor{
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    display: flex;
+}
+.sec-post-detaile .sec-post-detail--content--infor [class*="sec-post-detail--content"]{ 
+    display: flex;
+    align-items: center;
+}
+.sec-post-detaile .sec-post-detail--content--infor img{width: 20px; margin-right: 14px;}
+.sec-post-detaile .sec-post-detail--content--author{
+    margin-right: 30px;
+}
+.sec-post-detaile .sec-post-detail--content--time{}
+.sec-post-detaile .sec-post-detail--content--body, .sec-post-detaile .sec-post-detail--content--body p{
+    color: #000000;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+}
+.sec-post-detaile .sec-post-detail--content--body h3{
+    color: #000000;
+    font-family: 'Roboto-Black', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.sec-post-detaile .sec-post-detail--content--body h4{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+.sec-post-detaile .sec-post-detail--content--body a{
+    color: #000000;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+}
+.sec-post-detaile .sec-post-detail--content--body a:hover{
+    color: #ffcb0e;
+}
+.sec-post-detaile .sec-post-detail--content--body figure{
+    margin-top: 28px;
+    margin-bottom: 45px;
+}
+.sec-post-detaile .sec-post-detail--content--body figure img{}
+
+.sec-post-detaile .sec-post-content--sidebar {
+    -webkit-flex: 0 0 438px;
+    -ms-flex: 0 0 438px;
+    flex: 0 0 438px;
+    max-width: 438px;
+}
+.sec-post-detaile .sec-post-detail--related-posts{
+    margin-bottom: 55px;
+}
+.sec-post-detaile .sec-post-content--sidebar-title{
+    color: #000000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid #ffcb0e;
+    padding-bottom: 11px;
+    margin-bottom: 35px;
+}
+.sec-post-detaile .related-posts--list{}
+.sec-post-detaile .related-posts--box:not(:last-child){
+    margin-bottom: 11px;
+}
+.sec-post-detaile .related-posts--box a{
+    display: flex;
+}
+.sec-post-detaile .related-posts--box--thumb{
+    height: 100%;/*newchange 28/10/2019*/
+    object-fit: cover;
+    -webkit-flex: 0 0 123px;
+    -ms-flex: 0 0 123px;
+    flex: 0 0 123px;
+    max-width: 123px;
+    border: 1px solid #ffcb0e;
+}
+.sec-post-detaile .related-posts--box--thumb img{
+    height: 100%;
+}
+
+.sec-post-detaile .related-posts--box--content{
+    -webkit-flex: 0 0 calc(100% - 123px);
+    -ms-flex: 0 0 calc(100% - 123px);
+    flex: 0 0 calc(100% - 123px);
+    max-width: calc(100% - 123px);
+    padding-left: 17px;
+}
+.sec-post-detaile .related-posts--box--title{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+}
+.sec-post-detaile .related-posts--box--title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.sec-post-detaile .related-posts--box a:hover .related-posts--box--title{ color: #ffcb0e;}
+
+.sec-post-detaile .sec-post-detail--typical-works{
+    margin-bottom: 27px;
+}
+.sec-post-detaile .typical-works--list{}
+.sec-post-detaile .typical-works--list .row{
+    margin: -5px;
+}
+.sec-post-detaile .typical-works--list .col-6{
+    padding: 5px;
+    padding-bottom: 15px;
+
+}
+.sec-post-detaile .typical-works--list .col-12{
+    padding: 5px;
+    padding-bottom: 5px;
+}
+.sec-post-detaile .typical-works--box{
+    position: relative;
+}
+.sec-post-detaile .typical-works--box a:hover{
+    color: #000000;
+}
+.sec-post-detaile .typical-works--box--thumb{}
+.sec-post-detaile .typical-works--box--content{
+    background-color: #ffcb0e;
+    padding: 8px 10px;
+    background-color: #ffcb0e;
+    padding: 8px 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.sec-post-detaile .typical-works--box--title{
+    color: #ffffff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+.sec-post-detaile .typical-works--box--title::after{
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    display: block;
+    margin: auto;
+}
+.sec-post-detaile .sec-post-detail--contact{
+    /* background-color: #ffcb0e;
+    padding-top: 29px;
+    padding-bottom: 56px; */
+    position: sticky;
+    top: 0;
+    
+}
+.sec-post-detaile .sec-post-detail--contact--content{
+    background-color: #ffcb0e;
+    padding-top: 29px;
+    padding-bottom: 56px;
+}
+.sec-post-detail--contact--content.fixed{
+    position: fixed;
+    top: 0;
+    -webkit-flex: 0 0 388px;
+    -ms-flex: 0 0 388px;
+    flex: 0 0 388px;
+    max-width: 388px;
+    width: 100%;
+}
+.sec-post-detaile .sec-post-detail--contact--header{
+    margin-bottom: 10px;
+}
+.sec-post-detaile .sec-post-detail--contact--title{
+    text-transform: uppercase;
+    /* Text style for "GỌI NGAY" */
+    color: #231f20;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.sec-post-detaile .sec-post-detail--contact--description{
+    color: #ffffff;
+    font-family: "Roboto",sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center
+}
+.sec-post-detaile .sec-post-detail--contact-hotline{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    align-items: center;
+}
+.sec-post-detaile .sec-post-detail--contact-hotline img{
+    width: 57px;
+    margin-right: 25px;
+}
+.sec-post-detaile .sec-post-detail--contact-hotline ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sec-post-detaile .sec-post-detail--contact-hotline a{
+    color: #231f20;
+    font-family: "Roboto",sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: normal;
+}
+.sec-post-detaile .sec-post-detail--contact-hotline a:hover{
+    color: white;
+}
+
+.sec-post-detaile .sec-post-detail--contact--form{
+    text-align: center;
+}
+.sec-post-detaile .sec-post-detail--contact--form::before{
+    content: url('../images/icon/border-call.svg');
+}
+.sec-post-detaile .sec-post-detail--contact--form--title{
+    color: #ffffff;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.sec-post-detaile .sec-post-detail--contact--form--description{
+    color: #000000;
+    font-family: "Roboto",sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    font-style: italic;
+}
+.sec-post-detail--contact .wpcf7{margin-top: 25px; max-width: 274px; margin-left: auto; margin-right: auto;}
+.sec-post-detail--contact .form-field.field-name{margin-bottom: 1px;}
+.sec-post-detail--contact .form-field{
+    /* height: 19px; */
+    margin-bottom: 5px;
+}
+.sec-post-detail--contact .form-field input,
+.sec-post-detail--contact .form-field textarea{
+    width: 100%;
+    height: 19px;
+    background-color: #ffffff;
+    color: #939598;
+    font-family: "Roboto",sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    border: none;
+    padding: 0 6px;
+}
+.sec-post-detail--contact .form-field textarea{height: 43px;}
+.sec-post-detail--contact .form-field span.wpcf7-not-valid-tip{
+    font-size: 10px;
+    text-align: left;
+}
+.sec-post-detail--contact .form-footer{position: relative;}
+.sec-post-detail--contact .form-footer .ajax-loader{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec-post-detail--contact .form-footer input[type="submit"]{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 300;
+    padding: 4px 15px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.sec-post-detail--contact .form-footer input[type="submit"]:hover{
+    background-color: white;
+}
+
+/* tax dich vu */
+.sec-tax-content--header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.empty_pd{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 1199px){
+    .tab-service--content .row{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .tab-service--content .row .col-lg-4{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 991px){
+    .sec-post-detaile {
+        padding-top: 85px;
+    }
+    .sec-post-detaile .sec-post-detail--content{
+        padding-bottom: 60px;
+    }
+    .sec-post-detaile .sec-post-content--sidebar, .sec-post-detaile .sec-post-detail--content{
+        -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+} 
+
+@media (max-width: 767px){
+    .banner-top-new .banner-top-new--title{
+        font-size: 32px;
+    }
+    .main .tab-service--box--title a{font-size: 13px;}
+    .banner-top-new--content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 375px){
+    .sec-post-detaile .related-posts--box--thumb {
+        max-width: 80px;
+        height: 100%;
+    }
+}
+@media (max-width: 320px){
+    .sec-post-detaile .sec-post-detail--contact--form{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+
+
+
+.home-page .sec-about-doctor-home .description-cont-group .col-content-description p{
+    margin-bottom: 10px;
+}
+.home-page .sec-about-doctor-home .sec-about-doctor-home--col-right--col-cont--title-h5-itaclic{
+    padding-top: 10px;
+}
+
+
+.footer .content-footer .cont-image-logo{
+    margin-bottom: 50px;
+}
+.footer .content-footer .row .description p{
+    margin: 0 !important;
+}
+.footer .content-footer .service-footer{
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+.footer .copy-right .content-copy .pull-right .social_menu{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 15px;
+    max-width: 100%;
+}
+
+
+.blog-content .box-blog{
+    position: relative;
+    padding-bottom: 20px;
+}
+.blog-content .box-blog .detail{
+    position: absolute;
+    bottom: 20px;
+}
+
+
+
+@media only screen and (max-width: 991px){
+    .footer .content-footer .content-logo{
+        max-width: 100%;
+        margin-bottom: 30px;
+    } 
+    .sec-information-footer .content-information{
+        justify-content: center;
+    }
+    .footer .copy-right .social {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 767px){
+    #hotline.fixed {
+        bottom: 160px;
+    }
+    #drift-widget-container.fixed #drift-widget {
+        bottom: 130px!important;
+    }
+    .footer div.copy-right .social{
+        justify-content: start;
+        max-width: 100%;
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 575px){
+    
+    .footer .content-footer .cont-image-logo{
+        margin-bottom: 30px;
+    }
+    .footer .content-footer .content-logo{
+        margin-bottom: 20px;
+    }
+    .footer .content-footer .service-footer{
+        margin-bottom: 20px;
+    }
+    .footer .copy-right .social{
+        justify-content: center;
+        margin-right: 80px;
+        width: 100%;
+    }
+    .footer .copy-right .pull-right .social_menu{
+        padding: 5px 15px;
+    }
+    #hotline.fixed {
+        bottom: 177px;
+    }
+    #drift-widget-container.fixed #drift-widget {
+        bottom: 148px!important;
+    }
+}
+@media only screen and (max-width: 375px){
+    .footer .copy-right .social{
+        width: 100%;
+        margin: 0;
+    }
+    .tab-service--new .tab-service--title{
+        font-size:30px;
+    }
+}
+.related-posts--list .related-posts--box{
+    display: flex;/*newchange 28/10/2019*/
+}
+.blog-content .content-img img{
+    object-position: center;
+}
+.home-page .sec-our-service .title-h4.title-h4{
+    font-family: 'Roboto-Black', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 41px;
+}
